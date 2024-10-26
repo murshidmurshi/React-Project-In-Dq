@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(173, 52, 52), rgb(13, 54, 108), rgb(207, 188, 188));
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.login_container {
+    height: 648px;
+    width: 517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #a69878 0px 0 23px;
+}
+
+.inside_login {
+    height: 226px;
+    width: 390px;
+    /*  background-color: white; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+.welcome {
+    text-align: center;
+    width: 390px;
+    /* background-color: purple; */
+    padding: 33px;
+    height: 232px;
+}
+
+.welcome {
+    border-radius: 0 100px;
+}
+
+form .inside_login {
+    border-radius: 100px 0;
+    position: relative;
+    bottom: 93px;
+}
+
+
+.welcome h1 {
+    color: wheat;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.welcome p {
+    color: wheat;
+}
+
+.inside_login p {
+    color: black;
+}
+
+.login_container {
+    border-radius: 10px 560px;
+
+}
+
+.login_con2 {
+    height: 648px;
+    width: 517px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #a69878 0px 0 23px;
+    border-radius: 560px 10px;
+}
+
+.inside_login input {
+    color: yellow;
+    background-color: transparent;
+}
+
+.inside_login input {
+    color: yellow;
+    background-color: transparent;
+}
+
+.inside_login input::placeholder {
+    color: yellow;
+}
+
+button {
+    background-color: #acb899;
+}
+
+input,
+textarea {
+    margin: 10px;
+    width: 70%;
+    padding: 11px;
+    border-radius: 9px;
+    font-size: 20px;
+    border: 1px solid;
+}
+
+button {
+    padding: 15px 26px;
+    border: 1px solid;
+    font-size: 20px;
+    background-color: #acb899;
+}
